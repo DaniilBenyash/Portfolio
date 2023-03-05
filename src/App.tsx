@@ -1,11 +1,11 @@
-import React from 'react';
+import './styles/App.scss';
+import Navigator from './components/PageOne/Navigator';
+import PageOne from './page/PageOne';
 
-import './App.css';
-
-function App() {
+const App = () => {
   return (
     <div className="App">
-      qweqweqwe
+      <PageOne/>
     </div>
   );
 }
