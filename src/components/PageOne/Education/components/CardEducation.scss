@@ -1,0 +1,16 @@
+.card_education{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0 50px;
+    
+    h4{
+        color: #9a9a9a;
+    }
+
+    img{
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+    }
+}

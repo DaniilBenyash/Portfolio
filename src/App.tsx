@@ -1,6 +1,5 @@
 import './styles/App.scss';
-import Navigator from './components/PageOne/Navigator';
-import PageOne from './page/PageOne';
+import PageOne from './page/PageOne/PageOne';
 
 const App = () => {
   return (

@@ -2,7 +2,7 @@
     display: flex;
     align-items: flex-end;
     height: 100%;
-    padding: 0 50px 0 30px;
+    padding: 0 70px 0 40px;
     width: min-content;
 
     &__container{
@@ -13,20 +13,22 @@
         transform-origin: top left;
         width: 20px;
         margin-bottom: 30%;
-        color: white;
-        font-size: 18px;
     }
 
     &__link{
         margin-right: 200%;
-        text-decoration: none;
-        border-bottom: 4px solid rgb(0, 0, 0, 0);
-
-        &:visited{
-            color: white;
-        }
+        background: none;
+        border: none;
+        color: white;
+        font-family: Poppins;
+        font-size: 18px;
+        padding-bottom: 5px;
 
         &:hover{
+            border-bottom: 3px solid #54BAB9;
+        }
+
+        &-active{
             border-bottom: 3px solid #54BAB9;
         }
     }
