@@ -6,7 +6,6 @@ const Career = () => {
     return (
         <Background>
             <div className="career">
-                <div className="career__line"></div>
                 <div className="career__container">
                     {info.career.map((el) => {
                         return (

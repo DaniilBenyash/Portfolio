@@ -11,8 +11,9 @@
         color: white;
         background-color: rgb(0, 0, 0, 0.85);
         position: absolute;
-        height: calc(100vh - 20vh);
         width: calc(100% - 20%);
+        height: 80vh;
+        // padding-bottom: 5vh;
         display: flex;
         flex-direction: row;
         padding-top: 2%;
@@ -25,9 +26,42 @@
     &__title{
         font-size: 40px;
         font-weight: 500;
+        line-height: 40px;
+        
 
         &::first-letter{
             color: #54BAB9;
         }
     }
+
+    &__line{
+        background-color: #54BAB9;
+        width: 165px;
+        height: 3px;
+        margin-bottom: 30px; 
+    }
 }
+
+@media screen and (max-width: 1400px) {
+    .background{
+        
+        &__conteiner{
+            width: 90%;
+        }
+    }
+}
+
+@media screen and (max-width: 670px) {
+   .background{
+
+        &__line{
+            margin-bottom: 10px;
+        }
+
+        &__conteiner{
+            width: 90%;
+            height: 100vh;
+        }
+    }
+}
+

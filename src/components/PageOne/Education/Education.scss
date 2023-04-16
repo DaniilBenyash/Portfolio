@@ -1,9 +1,8 @@
 .education{
-    margin-top: 50px;
     overflow-y: scroll;
-    height: 75%;
+    height: 60vh;
     width: 100%;
-    padding-right: 30%;
+    padding-right: 10%;
 
     &::-webkit-scrollbar {
         width: 3px;
@@ -20,10 +19,11 @@
         border-radius: 20px;
         background-color: white;
       }
+}
 
-    &__line{
-        background-color: #54BAB9;
-        width: 185px;
-        height: 3px;
-    }
+@media screen and (max-width: 670px) {
+  .education{
+    height: 85vh;
+    padding-right: 5%;
+  }
 }

@@ -7,7 +7,6 @@ const Education = () => {
     return (
         <Background>
             <div className="education">
-                <div className="education__line"></div>
                 {info.education.map(el => {
                     return (
                         <CardEducation 

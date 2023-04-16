@@ -21,9 +21,13 @@
     &__background{
         width: 100%;
         height: 100%;
-        background-image: url("./assets/background.jpg");
+        background-image: url("../../../public/PageOne/background.jpg");
         background-position: top right;
         filter: blur(3px) grayscale(100%);
         z-index: 0;
     }
+}
+
+@media screen and (max-width: 1400px) {
+    
 }

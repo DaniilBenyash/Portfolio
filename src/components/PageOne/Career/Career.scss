@@ -1,17 +1,11 @@
 .career{
-    margin-top: 50px;
     height: 100%;
 
-    &__line{
-        background-color: #54BAB9;
-        width: 185px;
-        height: 3px;
-    }
     &__container{
         overflow-y: scroll;
-        height: 75%;
+        height: 60vh;
         width: 100%;
-        padding-right: 30%;
+        padding-right: 10%;
 
         &::-webkit-scrollbar {
             width: 3px;
@@ -34,13 +28,34 @@
         
         
         h4{
-            margin: 10px 0;
+            margin-bottom: 10px;
             color: #9a9a9a;
         }
         ul{
             margin-left: 15px;
             ul{
                 margin-left: 30px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .career{
+        
+        &__container{
+            height: 85vh;
+            padding-right: 10px;
+        }
+
+        &__card{
+            
+            h2{
+                font-size: 22px;
+            }
+
+            ul{
+                font-size: 15px;
             }
         }
     }

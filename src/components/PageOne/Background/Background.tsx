@@ -13,6 +13,7 @@ const Background = (props: IBackgroundProps) => {
                 <Navigator/>
                 <div className='background__content'>
                     <h2 className='background__title'>Portfolio</h2>
+                    <div className="background__line"></div>
                     {props.children}
                 </div>
             </div>

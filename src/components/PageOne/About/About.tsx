@@ -11,11 +11,11 @@ const About = () => {
 
     return (
         <Background>
-            <div className='about__content'>
-                <div className='about__section'>
-                    <div className="about__photo"></div>
+            <div className='about'>
+                <div className='about__section'>              
+                    <img src="./PageOne/About/photo.png" alt="photo"  className='about__photo'/>
                     <div className='about__info'>
-                        <div style={{height: '100%'}}>
+                        <div>
                             <div className="about__line"></div>
                             <h1>{info.name}</h1>
                             <h2>{info.profession}</h2>
@@ -31,11 +31,13 @@ const About = () => {
                         </div>             
                         <div className='about__socials'>
                             <button className='about__email' onClick={clickEmail}>daniilbeniash@gmail.com</button>
-                            <a href={info.socials.telegram}><img src="./PageOne/About/telegram.png" alt="telegram" /></a>
-                            <a href={info.socials.linkedin}><img src="./PageOne/About/linked.png" alt="linkedin" /></a>
-                            <a href={info.socials.git}><img src="./PageOne/About/git.png" alt="git" /></a>
-                            <a href={info.socials.codewars}><img src="./PageOne/About/codewars.png" alt="codewars"/></a>
-                            <a href="./Daniil_Beniash_CV.pdf" download className='about__download'><img src="./PageOne/About/CV.png" alt="codewars"/></a> 
+                            <div>
+                                <a href={info.socials.telegram}><img src="./PageOne/About/telegram.png" alt="telegram" /></a>
+                                <a href={info.socials.linkedin}><img src="./PageOne/About/linked.png" alt="linkedin" /></a>
+                                <a href={info.socials.git}><img src="./PageOne/About/git.png" alt="git" /></a>
+                                <a href={info.socials.codewars}><img src="./PageOne/About/codewars.png" alt="codewars"/></a>
+                                <a href="./Daniil_Beniash_CV.pdf" download className='about__download'><img src="./PageOne/About/CV.png" alt="codewars"/></a>
+                            </div>
                         </div>
                     </div>
                 </div>

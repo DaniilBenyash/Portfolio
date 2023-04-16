@@ -7,7 +7,6 @@ const Projects = () => {
     return (
         <Background>
             <section className="projects">
-                <div className="projects__line"></div>
                     {info.projects.map(el => {
                         return (
                             <CardProjects

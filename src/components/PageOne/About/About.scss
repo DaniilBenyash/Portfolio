@@ -1,20 +1,9 @@
 .about{
-    height: 100%;
-
-    &__content{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        opacity: 1;
-        height: 90%;
-    }
-
-
-    &__line{
-        background-color: #54BAB9;
-        width: 185px;
-        height: 3px;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 1;
+    height: 60vh;
 
     &__skills{
         color: #54BAB9;
@@ -22,32 +11,27 @@
     }
 
     &__section{
-        height: 100%;
+        height: auto;
         display: flex;
         flex-direction: row; 
     }
 
     &__photo{
         position: relative;
-        bottom: -7%;
+        bottom: -5vh;
         margin-right: 50px;
-        width: 30%;
-        height: 100%;
-        background-position: bottom center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-image: url(./assets/photo.png);
+        height: 65vh;
     }
 
     &__info{
-        width: 70%;
-        height: 95%;
+        height: 60vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
 
         h1{
             font-size: 65px;
+            line-height: 65px;
         }
 
         h2{
@@ -61,7 +45,7 @@
 
     &__description{
         overflow-y: scroll;
-        height: 50%;
+        height: 30vh;
         width: 100%;
         padding-right: 20%;
 
@@ -99,6 +83,10 @@
             width: 30px;
             margin-right: 40px;
         }
+
+        div{
+            display: flex;
+        }
     }
 
     &__email{
@@ -124,6 +112,118 @@
 
         img{
             margin-right: 5px;
+        }
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .about{
+        
+        &__socials{
+            
+            img{
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .about{
+
+        &__photo{
+            margin-right: 25px;
+        }
+        
+        &__socials{
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 40px;
+
+            button{
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .about{
+
+        &__photo{
+            height: 50vh;
+        }
+        
+        &__info{
+            
+            h1{
+                font-size: 50px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about{
+
+        &__photo{
+            height: 40vh;
+        }
+        
+        &__info{
+            
+            h1{
+                font-size: 40px;
+            }
+
+            h2{
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .about{
+        height: 100%;
+
+        &__section{
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+        }
+
+        &__photo{
+            position: static;
+            height: 32vh;
+            margin-bottom: 10px;
+        }
+
+
+        &__info{
+            // justify-content: flex-start;
+            height: 50vh;
+            
+            h1{
+                font-size: 30px;
+                line-height: 35px;
+            }
+
+            h2{
+                font-size: 20px;
+                margin-bottom: 5px;
+            }
+        }
+        
+        &__description{
+            padding-right: 5%;
+            font-size: 15px;
+            // width: 97%;
+            height: 30vh;
+        }
+
+        &__socials{
+            margin-top: 15px;
         }
     }
 }

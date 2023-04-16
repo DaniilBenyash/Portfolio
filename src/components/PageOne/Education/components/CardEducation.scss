@@ -14,3 +14,16 @@
         margin-right: 20px;
     }
 }
+
+@media screen and (max-width: 670px) {
+    .card_education{
+
+        h2{
+            font-size: 22px;
+        }
+
+        h3{
+            font-size: 18px;
+        }
+    }
+}
