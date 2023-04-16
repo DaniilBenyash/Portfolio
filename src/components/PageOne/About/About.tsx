@@ -13,7 +13,7 @@ const About = () => {
         <Background>
             <div className='about'>
                 <div className='about__section'>              
-                    <img src="./PageOne/About/photo.png" alt="photo"  className='about__photo'/>
+                    <img src="./PageOne/About/photo.png" alt="my_photo"  className='about__photo'/>
                     <div className='about__info'>
                         <div>
                             <div className="about__line"></div>
