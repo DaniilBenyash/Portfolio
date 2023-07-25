@@ -1,4 +1,4 @@
-import { useContext, useEffect } from 'react'
+import { useContext } from 'react'
 import './Navigator.scss'
 import { Context } from '../../../page/PageOne/PageOne'
 
