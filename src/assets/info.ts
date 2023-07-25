@@ -40,7 +40,7 @@ export const info: IInfo = {
     // desckription:
     about: "During my school years, I realized that I like to decide different kinds computer task, but only now i have opportunity to do it professionally. Why frontend? Here I can realize myself not only like developer but also show creativity. After course, I don't stop to improve mine knowledge in frondent and English language.",
     skills: ['HTML', 'CSS', 'JS', 'TS', 'React JS', 'Redux', 'Next JS', 'SCSS', 'Tailwind'],
-    language: ['Russian', 'English A2'],
+    language: ['Russian', 'English B1'],
     socials: {
         email: 'daniilbeniash@gmail.com',
         telegram: 'https://t.me/daniilbeniash',
@@ -69,11 +69,19 @@ export const info: IInfo = {
         }],
     career: [
         {name: 'Freelance', 
-        time: 'July - till now', 
+        time: 'July 2022 - till now', 
         description: [
-            {name: 'Web development'}
+            {name: 'Skills',
+            description: [
+            'Experience working with customers',
+            'Web development experience',
+            ]},
+            {name: 'Results',
+            description: [
+            'Web development experience',
+            ]}
         ]},
-        {name: 'TeachMeSkills | graduate',
+        {name: 'TeachMeSkills | Graduate',
         time: 'Nov. 2021 - July 2022',
         description: [
             {name: 'Skills',
@@ -85,8 +93,8 @@ export const info: IInfo = {
             ]},
             {name: 'Results',
             description: [
-            'Implementation of the graduation project: Internet service to search, sort and view information about movie.',
-            'The project was completed with all the tasks set, without going beyond deadlines. Get to know the project you can follow the links:',
+            'The graduation project was implemented: an Internet service for searching, sorting and viewing information about a film.',
+            'The project was completed with all the tasks set, without going beyond deadlines'
             ]}
         ]}
     ],

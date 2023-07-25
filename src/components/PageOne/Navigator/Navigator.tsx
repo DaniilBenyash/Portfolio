@@ -4,11 +4,7 @@ import { Context } from '../../../page/PageOne/PageOne'
 
 const Navigator = () => {
     const con = useContext(Context)
-    useEffect(() => {
-        console.log(con.value);
-        
-        
-    })
+    
     return (
         <nav className='navigator'>
             <div className='navigator__container'>
